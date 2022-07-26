@@ -26,6 +26,6 @@ int main()
         }
     
     }    printf("Sum = %d\n",sum);//display the value of sum.
-    printf("The avarage = %.3f \n",avg);//display the value avarage.
+         printf("The avarage = %.3f \n",avg);//display the value avarage.
 return 0;
     }
