@@ -9,13 +9,13 @@ int main()
  	while(1){
 	printf("Enter number of Elements\n");//ask user to enter the number of elements.
     scanf("%d",&counter);//store the user input to counter variable.
-    printf("Enter the values of  Elements\n");//ask user to enter the value elements.
+   	 printf("Enter the values of  Elements\n");//ask user to enter the value elements.
     	for(i=0;i<counter;i++)//loop for iterate scanf function count numbers. 
     {
     scanf("%d",& arr[i]);//store the values to array index 0 to last index
     }
     {
-    printf("Number of elements are = %d\n",counter);//display the value of counter variable
+   	 printf("Number of elements are = %d\n",counter);//display the value of counter variable
     }
     	for (int i=0;i<counter;i++)//add the value of index 0 to index n in the array and find the sum
     {
